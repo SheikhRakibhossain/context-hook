@@ -15,7 +15,8 @@ const Login = () => {
         signIn(email, password)
         .then(result =>{
             const signedIn = result.user;
-            console.log(signedIn)
+            console.log(signedIn);
+            form.reset('');
         })
         .catch(error =>{
             console.error(error)
