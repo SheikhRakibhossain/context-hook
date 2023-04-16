@@ -21,6 +21,7 @@ const Header = () => {
                             <li><a><Link to='home'>Home</Link></a></li>
                             <li><a><Link to='register'>Register</Link></a></li>
                             <li><a><Link to='login'>Login</Link></a></li>
+                            <li><a><Link to='dashboard'>Dashboard</Link></a></li>
 
                         </ul>
                     </div>
@@ -31,6 +32,8 @@ const Header = () => {
                         <li><a><Link to='/'>Home</Link></a></li>
                         <li><a><Link to='Register'>Register</Link></a></li>
                         <li><a><Link to='login'>Login </Link></a></li>
+                        <li><a><Link to='dashboard'>Dashboard</Link></a></li>
+
                     </ul>
                 </div>
                 <div className="navbar-end">
